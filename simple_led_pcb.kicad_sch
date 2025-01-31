@@ -896,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 67.31) (xy 118.11 67.31)
+			(xy 102.87 67.31) (xy 128.27 67.31)
 		)
 		(stroke
 			(width 0)
@@ -913,16 +913,6 @@
 			(type default)
 		)
 		(uuid "1f1dc832-92ee-4d1c-85c3-77576c29bf3b")
-	)
-	(wire
-		(pts
-			(xy 118.11 67.31) (xy 118.11 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21f6242e-926a-4b7e-9ba9-5faeb70fa760")
 	)
 	(wire
 		(pts
@@ -953,6 +943,16 @@
 			(type default)
 		)
 		(uuid "b85b66e3-e68e-4bdd-a037-1fe9c49aaa83")
+	)
+	(wire
+		(pts
+			(xy 128.27 67.31) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca416c6b-8ca7-4867-a8f0-4d1abc0376b0")
 	)
 	(symbol
 		(lib_id "Device:Battery")
@@ -1034,7 +1034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6fc1112-130b-42f4-abed-d714fc534d99")
-		(property "Reference" "R1"
+		(property "Reference" "R1.1"
 			(at 100.33 60.96 90)
 			(effects
 				(font
@@ -1086,7 +1086,7 @@
 		(instances
 			(project ""
 				(path "/a6f41b6e-59ed-4005-bac5-fbb3811063d2"
-					(reference "R1")
+					(reference "R1.1")
 					(unit 1)
 				)
 			)
